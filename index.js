@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 
 // Your proxy chain entry point
-const PROXY = 'https://amesterdam.onrender.com';
+const PROXY = 'https://amesterdam-2.onrender.com';
 
 // Test endpoint
 app.get('/', (req, res) => {
